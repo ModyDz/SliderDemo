@@ -64,6 +64,7 @@ img {
   background-color: bisque;
   border-radius: 50%;
   opacity: 0.5;
+  cursor: pointer;
 }
 .circles span:not(:last-child) {
   margin-right: 5px;
