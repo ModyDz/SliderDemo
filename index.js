@@ -27,14 +27,14 @@ function moveSlider(dir, amount) {
   ) {
     count++;
     wrapper.style.transform = `translateX(-${100 * count}vw)`;
-    movingCir.style.transform = `translateX(${15 * count}px)`;
+    movingCir.style.transform = `translateX(${65 * count}px)`;
   } else if (count > 0 && dir == "left") {
     count--;
     wrapper.style.transform = `translateX(-${100 * count}vw)`;
-    movingCir.style.transform = `translateX(${15 * count}px)`;
+    movingCir.style.transform = `translateX(${65 * count}px)`;
   } else {
     count = amount;
     wrapper.style.transform = `translateX(-${100 * amount}vw)`;
-    movingCir.style.transform = `translateX(${15 * amount}px)`;
+    movingCir.style.transform = `translateX(${65 * amount}px)`;
   }
 }
